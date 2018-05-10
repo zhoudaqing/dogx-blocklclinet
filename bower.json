@@ -1,0 +1,26 @@
+{
+  "name": "digibytejs-wallet-client",
+  "main": "index.js",
+  "version": "2.1.1",
+  "homepage": "https://github.com/digibyte/digibytejs-wallet-client",
+  "authors": ["DigiByte"],
+  "description": "Client for digibytejs-wallet-service",
+  "keywords": [
+    "digibyte",
+    "copay",
+    "multisig",
+    "wallet",
+    "client",
+    "digibytejs"
+  ],
+  "ignore": [
+    "**/.*",
+    "lib",
+    "node_modules",
+    "Gruntfile.js",
+    "Makefile",
+    "index.js",
+    "test",
+    "Makefile"
+  ]
+}
