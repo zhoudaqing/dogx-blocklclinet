@@ -1,8 +1,8 @@
-# tdc-wallet-client
+#bsa-wallet-client
 
-[![NPM Package](https://img.shields.io/npm/v/tdc-wallet-client.svg?style=flat-square)](https://www.npmjs.org/package/tdc-wallet-client)
-[![Build Status](https://img.shields.io/travis/bitpay/tdc-wallet-client.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/tdc-wallet-client)
-[![Coverage Status](https://coveralls.io/repos/bitpay/tdc-wallet-client/badge.svg)](https://coveralls.io/r/bitpay/tdc-wallet-client)
+[![NPM Package](https://img.shields.io/npm/v/bsa-wallet-client.svg?style=flat-square)](https://www.npmjs.org/package/bsa-wallet-client)
+[![Build Status](https://img.shields.io/travis/bitpay/bsa-wallet-client.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bsa-wallet-client)
+[![Coverage Status](https://coveralls.io/repos/bitpay/bsa-wallet-client/badge.svg)](https://coveralls.io/r/bitpay/bsa-wallet-client)
 
 The *official* client library for [digibytejs-wallet-service](https://github.com/digibyte/digibytejs-wallet-service).
 
@@ -10,7 +10,7 @@ The *official* client library for [digibytejs-wallet-service](https://github.com
 
 This package communicates with BWS [DigiByteJS wallet service](https://github.com/bitpay/digibytejs-wallet-service) using the REST API. All REST endpoints are wrapped as simple async methods. All relevant responses from DWS are checked independently by the peers, thus the importance of using this library when talking to a third party DWS instance.
 
-See [Bitcore-wallet](https://github.com/bitpay/tdc-wallet) for a simple CLI wallet implementation that relays on BWS and uses tdc-wallet-client.
+See [Bitcore-wallet](https://github.com/bitpay/bsa-wallet) for a simple CLI wallet implementation that relays on BWS and uses bsa-wallet-client.
 
 ## Get Started
 
@@ -21,7 +21,7 @@ You can start using digibytejs-wallet-client in any of these two ways:
 
 ## Example
 
-Start your own local [Bitcore wallet service](https://github.com/bitpay/tdc-wallet-service) instance. In this example we assume you have `tdc-wallet-service` running on your `localhost:3232`.
+Start your own local [Bitcore wallet service](https://github.com/bitpay/bsa-wallet-service) instance. In this example we assume you have `bsa-wallet-service` running on your `localhost:3232`.
 
 Then create two files `irene.js` and `tomas.js` with the content below:
 
@@ -104,10 +104,10 @@ client.joinWallet(secret, "Tomas", {}, function(err, wallet) {
 });
 ```
 
-Install `tdc-wallet-client` before start:
+Install `bsa-wallet-client` before start:
 
 ```
-npm i tdc-wallet-client
+npm i bsa-wallet-client
 ```
 
 Create a new wallet with the first script:
